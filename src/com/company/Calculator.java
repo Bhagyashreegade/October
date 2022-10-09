@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args) {
+
+        System.out.println("This is the Calculator class");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of a");
         int a= sc.nextInt();
