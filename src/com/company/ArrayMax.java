@@ -2,7 +2,7 @@ package com.company;
 
 public class ArrayMax {
     public static void main(String[] args) {
-        System.out.println("Array is main class");
+        System.out.println("Array is main Class");
 
         int [] number= {10,50,60,120,100};
 
