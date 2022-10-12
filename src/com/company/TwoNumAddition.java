@@ -11,27 +11,26 @@ public class TwoNumAddition {
         addNumber(sc);
     }
 
-    public static void addNumber(Scanner sc){
+    public static void addNumber(Scanner sc) {
 
         System.out.println("Please enter number 1");
-        int num1= sc.nextInt();
+        int num1 = sc.nextInt();
 
         System.out.println("Please enter number 2");
-        int num2= sc.nextInt();
+        int num2 = sc.nextInt();
 
-        System.out.println("Sum of two numbers " +  (num1 + num2));
+        System.out.println("Sum of two numbers " + (num1 + num2));
 
         System.out.println("If you want to continue press 1 or else press 2");
 
-        int num= sc.nextInt();
+        int num = sc.nextInt();
 
-        if(num == 1){
+        if (num == 1) {
             addNumber(sc);
 
-        }else{
+        } else {
             System.out.println("End of the program");
         }
-
 
 
     }
