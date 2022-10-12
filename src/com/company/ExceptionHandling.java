@@ -8,8 +8,8 @@ public class ExceptionHandling {
         System.out.println("Test 2");
 
 
-        /* ----> Exception e is the generic exception which is the parent of all the exception.It should be the last exception while
-        defining the specific exception
+        /* ----> Exception e is the generic exception which is the parent of all the exception.It should be at the last exception
+         while defining the specific exception
          */
 
         /* Execution will not stop if exception is handled */
