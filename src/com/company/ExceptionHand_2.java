@@ -26,7 +26,7 @@ public class ExceptionHand_2 {
         //matter of sequence in exception--> Child exception first and the generic exception always comes last
         //if generic block is defined, then it must be defined after all the other catch blocks
 
-        catch(Exception e){
+        catch (Exception e) {
             System.out.println(e);
 
         }

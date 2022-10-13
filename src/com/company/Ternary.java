@@ -3,7 +3,7 @@ package com.company;
 public class Ternary {
     public static void main(String[] args) {
 
-        int age= 19;
+        int age = 19;
         String status;
 
         /*if(age>=18){
@@ -20,7 +20,7 @@ public class Ternary {
 
 
         //2---->
-       status = age>=18? "Valid" : "Invalid";
-       System.out.println(status);
+        status = age >= 18 ? "Valid" : "Invalid";
+        System.out.println(status);
     }
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Sphere extends Shape{
+public class Sphere extends Shape {
     private double radius;
 
     public Sphere(String shapeName, double radius) {
@@ -8,8 +8,8 @@ public class Sphere extends Shape{
         this.radius = radius;
     }
 
-    public double area(){
-        return 4*Math.PI*radius*radius;
+    public double area() {
+        return 4 * Math.PI * radius * radius;
     }
 
     @Override

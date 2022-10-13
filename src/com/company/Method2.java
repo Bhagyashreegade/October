@@ -8,22 +8,23 @@ public class Method2 {
 
         //directly consuming the value
         System.out.println(addition(10, 20));
-        System.out.println(multiplication(10,20));
+        System.out.println(multiplication(10, 20));
 
         //storing it in a variable and later printing out
 
-        int sum= addition(10,20);
+        int sum = addition(10, 20);
         System.out.println(sum);
 
-        int multiply= multiplication(10,20);
+        int multiply = multiplication(10, 20);
         System.out.println(multiply);
     }
 
-    public static int addition(int a, int b){
-        return a+b;
+    public static int addition(int a, int b) {
+        return a + b;
 
     }
-    public static int multiplication(int a , int b) {
+
+    public static int multiplication(int a, int b) {
         return a * b;
 
     }

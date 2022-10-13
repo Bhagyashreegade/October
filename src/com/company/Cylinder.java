@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cylinder extends Shape{
+public class Cylinder extends Shape {
 
     private double radius;
     private double height;
@@ -12,8 +12,8 @@ public class Cylinder extends Shape{
         this.height = height;
     }
 
-    public double area(){
-        return Math.PI*radius*radius*height;
+    public double area() {
+        return Math.PI * radius * radius * height;
     }
 
     @Override

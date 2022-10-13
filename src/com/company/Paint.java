@@ -8,10 +8,10 @@ public class Paint {
         this.coverage = coverage;
     }
 
-    public double amount (Shape s){
+    public double amount(Shape s) {
 
-        System.out.println("Computing amount for  " +   s);
-        return s.area()/coverage;
+        System.out.println("Computing amount for  " + s);
+        return s.area() / coverage;
     }
 
 }

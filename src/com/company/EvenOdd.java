@@ -7,12 +7,12 @@ public class EvenOdd {
         /*int a = 10;
         int b =5;*/
 
-        int a= 11;
-        int b= 5;
+        int a = 11;
+        int b = 5;
 
         if (a % b == 0) {
             System.out.println("The number is even");
-        }else{
+        } else {
             System.out.println("The number is odd");
         }
 

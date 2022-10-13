@@ -5,11 +5,11 @@ public class ExceptionHandling_3 {
     //what if generic exception is handled first
 
     public static void main(String[] args) {
-        String s= null;
-        try{
+        String s = null;
+        try {
             System.out.println(s.charAt(1));
 
-        }catch(Exception e){
+        } catch (Exception e) {
             System.out.println("Some error occurred");
 
         }

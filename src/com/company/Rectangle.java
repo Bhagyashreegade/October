@@ -1,6 +1,6 @@
 package com.company;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
     //properties of rectangle
 
@@ -13,8 +13,8 @@ public class Rectangle extends Shape{
         this.width = width;
     }
 
-    public double area(){
-        return length*width;
+    public double area() {
+        return length * width;
     }
 
     @Override
