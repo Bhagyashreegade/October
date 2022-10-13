@@ -2,7 +2,7 @@ package com.company;
 
 public class VotingSystem {
 
-    public static void main(String[] args) throws InvalidAgeException {
+    public static void main(String[] args) {
         Person person1 = new Person("Bhagya", "Female", 28);
         Person person2 = new Person("David", "male", 25);
         Person person3 = new Person("John", "male", 16);
@@ -18,7 +18,7 @@ public class VotingSystem {
                     throw new InvalidAgeException("The age is less than 18");
                 }
             } catch (InvalidAgeException e) {
-                System.out.println("An Exception is thrown for " +  person.getName());
+                System.out.println("An Exception is thrown for " + person.getName());
 
             }
         }
