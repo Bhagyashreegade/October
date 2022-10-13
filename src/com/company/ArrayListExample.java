@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+//Duplicates are allowed in ArrayList
+
 public class ArrayListExample {
 
     public static void main(String[] args) {
