@@ -2,15 +2,21 @@ package com.company;
 
 public class Person {
 
-        private String name;
-        private String gender;
-        private int age;
+    // 3 variables
+
+    private String name;
+    private String gender;
+    private int age;
+
+    //constructor
 
     public Person(String name, String gender, int age) {
         this.name = name;
         this.gender = gender;
         this.age = age;
     }
+
+    //Getter and Setter
 
 
     public String getName() {
