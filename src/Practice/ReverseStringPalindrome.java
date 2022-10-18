@@ -4,23 +4,39 @@ public class ReverseStringPalindrome {
     public static void main(String[] args) {
 
         String name = "MoM";
-        char[] chars = name.toCharArray(); // converting String into char array
-        char[] reverseArray = new char[name.length()]; //initializing an empty array
+        String reverse = "";
 
-        int length = chars.length;
-        int lastIndex = length - 1;
+        //1--->Using character array
 
-        for (int i = 0; i <= lastIndex; i++) {
-            reverseArray[lastIndex - i] = chars[i];
+        char[] a = name.toCharArray(); // converting String into char array
+        int length = a.length;
+
+        for (int i = length - 1; i >= 0; i--) {
+            reverse = reverse + a[i];
         }
-        String reverse = new String(reverseArray);
+
         System.out.println("String after reversing is " + reverse);
+
+        //2---> using string concatenation operator
+
+//        int length = name.length();
+//        for (int i = length - 1; i >= 0; i--) {
+//            reverse = reverse + name.charAt(i);
+//        }
+//        System.out.println("The reverse String is ---" + reverse);
+
+
+        //3--->Using String Buffer class
+
+        StringBuffer sb = new StringBuffer(name);
+        System.out.println("The reverse String is ---" + sb.reverse());
+
 
         //to check whether the given String is palindrome
 
-        if(name.equalsIgnoreCase(reverse)){
+        if (name.equalsIgnoreCase(reverse)) {
             System.out.println("The given String is palindrome");
-        }else{
+        } else {
             System.out.println("The given String is not a palindrome");
         }
     }
