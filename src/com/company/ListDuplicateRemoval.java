@@ -21,11 +21,20 @@ public class ListDuplicateRemoval {
         }*/
 
         //2----> how to print duplicates in ArrayList
-        for (int i = 0; i < list.size(); i++) {
-            for (int j = i + 1; j < list.size(); j++)
-                if (list.get(i) == list.get(j)) {
-                    System.out.println("found duplicate element :" + list.get(i));
-                }
+//        for (int i = 0; i < list.size(); i++) {
+//            for (int j = i + 1; j < list.size(); j++)
+//                if (list.get(i) == list.get(j)) {
+//                    System.out.println("found duplicate element :" + list.get(i));
+//                }
+//        }
+
+        //3---> Using HashSet
+
+        Set<String> s2 = new HashSet<>();
+        for (String s1 : list) {
+            if (s2.add(s1) == false) {
+                System.out.println("Duplicate element is : " + s1);
+            }
         }
 
         // How many times each duplicate is present

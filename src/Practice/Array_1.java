@@ -8,15 +8,22 @@ public class Array_1 {
 
         double nums[] = {1.4, 2.5, 2.5, 3.6, 3.9, 4.2, 4.8, 4.0, 3.1, 2.3};
         double sum = 0;
-        System.out.println("Sum of the value is: ");
-        for (double i = 0; i < nums.length; i++) {
-            sum = sum + nums[(int) i];
-        }
-        System.out.print(sum);
+//        System.out.println("Sum of the value is: ");
+//        for (double i = 0; i < nums.length; i++) {
+//            sum = sum + nums[(int) i];
+//        }
+//        System.out.print(sum);
+//
+//        {
+//            System.out.println();
+//        }
 
-        {
-            System.out.println();
+        //1A---> Using enhanced for loop
+
+        for (double v : nums) {
+            sum = sum + v;
         }
+        System.out.println("The sum of 10 decimal value is :" + sum);
 
         //2--->declare an array to hold 6 values and calculate the product of them
 
